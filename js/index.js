@@ -3,7 +3,8 @@ let cssButton = document.querySelector("#css");
 
 function showCssText() {
   let cssText = document.querySelector("#css-text");
-  cssText.innerHTML = "CSS text tex";
+  cssText.innerHTML =
+    "CSS stands for Cascading Style Sheets, and it's used to add style to a web page by dictating how a site is displayed on a browser.";
 }
 cssButton.addEventListener("mouseover", showCssText);
 
@@ -18,7 +19,8 @@ let htmlButton = document.querySelector("#html");
 
 function showHtmlText() {
   let htmlText = document.querySelector("#html-text");
-  htmlText.innerHTML = "CSS text tex";
+  htmlText.innerHTML =
+    "HTML is the language for describing the structure of Web pages. ";
 }
 htmlButton.addEventListener("mouseover", showHtmlText);
 
@@ -33,7 +35,8 @@ let jsButton = document.querySelector("#js");
 
 function showJsText() {
   let jsText = document.querySelector("#js-text");
-  jsText.innerHTML = "CSS text tex";
+  jsText.innerHTML =
+    "Javascript is used by programmers to create dynamic and interactive web content. ";
 }
 jsButton.addEventListener("mouseover", showJsText);
 
@@ -48,7 +51,8 @@ let editorButton = document.querySelector("#editor");
 
 function showEditorText() {
   let editorText = document.querySelector("#editor-text");
-  editorText.innerHTML = "CSS text tex";
+  editorText.innerHTML =
+    "Code editors or source code editors are software that is designed specifically to help developers with coding.";
 }
 editorButton.addEventListener("mouseover", showEditorText);
 
@@ -63,7 +67,8 @@ let githubButton = document.querySelector("#github");
 
 function showGithubText() {
   let githubText = document.querySelector("#github-text");
-  githubText.innerHTML = "CSS text tex";
+  githubText.innerHTML =
+    "GitHub is a code hosting platform for version control and collaboration.";
 }
 githubButton.addEventListener("mouseover", showGithubText);
 
@@ -78,7 +83,8 @@ let apiButton = document.querySelector("#api");
 
 function showApiText() {
   let apiText = document.querySelector("#api-text");
-  apiText.innerHTML = "CSS text tex";
+  apiText.innerHTML =
+    "API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.";
 }
 apiButton.addEventListener("mouseover", showApiText);
 
@@ -93,7 +99,8 @@ let respButton = document.querySelector("#responsive");
 
 function showRespText() {
   let respText = document.querySelector("#responsive-text");
-  respText.innerHTML = "CSS text tex";
+  respText.innerHTML =
+    "Responsive web design (RWD) is a web development approach that creates dynamic changes to the appearance of a website, depending on the screen size and orientation of the device being used to view it.";
 }
 respButton.addEventListener("mouseover", showRespText);
 
@@ -108,7 +115,8 @@ let reactButton = document.querySelector("#react");
 
 function showReactText() {
   let reactText = document.querySelector("#react-text");
-  reactText.innerHTML = "CSS text tex";
+  reactText.innerHTML =
+    "React is a JavaScript library developed by Facebook which, among other things, was used to build Instagram.com. Its aim is to allow developers to easily create fast user interfaces for websites and applications alike";
 }
 reactButton.addEventListener("mouseover", showReactText);
 

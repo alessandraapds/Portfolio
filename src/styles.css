@@ -73,9 +73,10 @@ h3 {
 
 .dev-skills-ul {
   list-style: none;
+  text-shadow: 1px 1px 2px white;
 }
 
 .dev-signature {
   font-size: 12px;
-  margin-top: 10px;
+  margin-top: 70px;
 }
