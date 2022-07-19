@@ -72,7 +72,8 @@ h3 {
 
 .contact-link {
   font-size: 28px;
-  letter-spacing: 5px;
+  letter-spacing: 20px;
+  color: rgb(82, 3, 128);
 }
 
 .dev-basic-info {
