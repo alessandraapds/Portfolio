@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  background: linear-gradient(to right, rgb(187, 9, 128), white);
+}
+
+hr {
+  margin: 0;
+  border: 1px solid black;
+}
+
+h2 {
+  font-size: 32px;
+  margin-top: 30px;
+  text-shadow: 1px 1px 2px pink;
+}
+
+h1 {
+  font-size: 20px;
+  font-style: italic;
+  text-shadow: 1px 1px 2px pink;
+}
+
+h3 {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin-top: 40px;
+  padding: 15px;
+  text-shadow: 1px 1px 2px white;
+}
+
+.heading-section {
+  background-image: url(/images/heading-pic.jpg);
+  background-size: contain;
+  width: 100%;
+  height: 170px;
+  resize: both;
+}
+
+.homepage-text {
+  font-size: 14px;
+  font-weight: bold;
+  word-spacing: 4px;
+  text-align: left;
+}
+
+.contact-me-button {
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: #680747;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+.dev-home-pic {
+  border: 5px solid white;
+  border-radius: 80px;
+}
+
+.dev-basic-info {
+  font-size: 20px;
+
+  font-weight: bold;
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+.dev-signature {
+  font-size: 12px;
+  margin-top: 10px;
+}
