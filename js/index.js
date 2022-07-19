@@ -84,7 +84,7 @@ let apiButton = document.querySelector("#api");
 function showApiText() {
   let apiText = document.querySelector("#api-text");
   apiText.innerHTML =
-    "API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.";
+    "API is a intermediary software that allows two applications to talk to each other.";
 }
 apiButton.addEventListener("mouseover", showApiText);
 
@@ -100,7 +100,7 @@ let respButton = document.querySelector("#responsive");
 function showRespText() {
   let respText = document.querySelector("#responsive-text");
   respText.innerHTML =
-    "Responsive web design (RWD) is a web development approach that creates dynamic changes to the appearance of a website, depending on the screen size and orientation of the device being used to view it.";
+    "Responsive web design (RWD) is a web development approach that creates dynamic changes to the appearance of a website, depending on the screen size and view orientation.";
 }
 respButton.addEventListener("mouseover", showRespText);
 
@@ -116,7 +116,7 @@ let reactButton = document.querySelector("#react");
 function showReactText() {
   let reactText = document.querySelector("#react-text");
   reactText.innerHTML =
-    "React is a JavaScript library developed by Facebook which, among other things, was used to build Instagram.com. Its aim is to allow developers to easily create fast user interfaces for websites and applications alike";
+    "React is a JavaScript library that allows developers to easily create fast user interfaces for websites and applications alike.";
 }
 reactButton.addEventListener("mouseover", showReactText);
 

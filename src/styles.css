@@ -9,13 +9,13 @@ hr {
 }
 
 h2 {
-  font-size: 32px;
-  margin-top: 30px;
+  font-size: 48px;
+  margin-top: 100px;
   text-shadow: 1px 1px 2px pink;
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 28px;
   font-style: italic;
   text-shadow: 1px 1px 2px pink;
 }
@@ -23,10 +23,15 @@ h1 {
 h3 {
   background-color: black;
   color: white;
-  font-size: 20px;
+  font-size: 24px;
+  font-style: italic;
   margin-top: 40px;
   padding: 15px;
   text-shadow: 1px 1px 2px white;
+}
+
+.h3-other-pages {
+  margin-top: 0;
 }
 
 .heading-section {
@@ -37,47 +42,56 @@ h3 {
   resize: both;
 }
 
+.dev-heading {
+  margin: 60px;
+}
+
 .homepage-text {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
   word-spacing: 4px;
   text-align: left;
 }
 
-.contact-me-button {
+.contact-me-button,
+.app-button {
   color: #680747;
   border: 2px solid #680747;
   background-color: white;
   border-radius: 20px;
   padding: 5px 15px;
   text-decoration: none;
+  transition: ease-out 100ms;
 }
 
-.contact-me-button:hover {
+.contact-me-button:hover,
+.app-button:hover {
   color: white;
   background-color: #680747;
   border: 2px solid white;
 }
 
-.dev-home-pic {
+.dev-home-pic,
+.dev-about-pic {
   border: 5px solid white;
   border-radius: 80px;
 }
 
-.contact-info {
-  font-size: 14px;
-  font-weight: bold;
-  font-style: italic;
-}
-
 .contact-link {
-  font-size: 28px;
-  letter-spacing: 20px;
+  font-size: 40px;
+  letter-spacing: 40px;
   color: rgb(82, 3, 128);
 }
 
+.contact-link-other-pages {
+  font-size: 24px;
+  letter-spacing: 20px;
+  color: rgb(82, 3, 128);
+  margin-right: 0;
+}
+
 .dev-basic-info {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   letter-spacing: 2px;
   width: 100%;
@@ -86,6 +100,12 @@ h3 {
 .dev-skills-ul {
   list-style: none;
   text-shadow: 1px 1px 2px white;
+}
+
+.weather-app {
+  border: 2px solid white;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px gray;
 }
 
 .dev-signature {
