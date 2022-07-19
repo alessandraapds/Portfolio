@@ -45,12 +45,18 @@ h3 {
 }
 
 .contact-me-button {
-  color: white;
-  border: 2px solid white;
+  color: #680747;
+  border: 2px solid #680747;
+  background-color: white;
   border-radius: 20px;
-  background-color: #680747;
   padding: 5px 15px;
   text-decoration: none;
+}
+
+.contact-me-button:hover {
+  color: white;
+  background-color: #680747;
+  border: 2px solid white;
 }
 
 .dev-home-pic {
@@ -59,11 +65,14 @@ h3 {
 }
 
 .dev-basic-info {
-  font-size: 20px;
-
+  font-size: 16px;
   font-weight: bold;
   letter-spacing: 2px;
   width: 100%;
+}
+
+.dev-skills-ul {
+  list-style: none;
 }
 
 .dev-signature {
