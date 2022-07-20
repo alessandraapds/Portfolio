@@ -125,3 +125,16 @@ function hideReactText() {
   reactText.innerHTML = " ";
 }
 reactButton.addEventListener("mouseout", hideReactText);
+
+window.addEventListener("scroll", () => {
+  let scrolled = window.scrollY;
+  let skillsTag = document.querySelector("#skills-tag");
+
+  if (scrolled > 900 && scrolled < 1150) {
+    skillsTag.innerHTML =
+      '<font size=4 ><i class="fa-solid fa-screwdriver-wrench"></i> Skills (Place your mouse over the skills to see what they stand for!)</font>';
+  } else {
+    skillsTag.innerHTML =
+      '<i class="fa-solid fa-screwdriver-wrench"></i> Skills';
+  }
+});
