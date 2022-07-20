@@ -83,6 +83,7 @@ h3 {
   font-size: 40px;
   letter-spacing: 40px;
   color: rgb(82, 3, 128);
+  text-shadow: 1px 1px 1px pink;
 }
 
 .contact-link-other-pages {

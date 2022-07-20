@@ -128,13 +128,39 @@ reactButton.addEventListener("mouseout", hideReactText);
 
 window.addEventListener("scroll", () => {
   let scrolled = window.scrollY;
-  let skillsTag = document.querySelector("#skills-tag");
+  let introductionTag = document.querySelector("#introduction");
+
+  if (scrolled > 300 && scrolled < 600) {
+    introductionTag.innerHTML =
+      '<font size=4 ><i class="fa-solid fa-info"></i> Introduction | My basic info!</font>';
+  } else {
+    introductionTag.innerHTML = '<i class="fa-solid fa-info"></i> Introduction';
+  }
+});
+
+window.addEventListener("scroll", () => {
+  let scrolled = window.scrollY;
+  let introductionTag = document.querySelector("#introduction");
+  let skillsTag = document.querySelector("#skills");
+  let projectsTag = document.querySelector("#projects");
 
   if (scrolled > 900 && scrolled < 1150) {
     skillsTag.innerHTML =
-      '<font size=4 ><i class="fa-solid fa-screwdriver-wrench"></i> Skills (Place your mouse over the skills to see what they stand for!)</font>';
+      '<font size=4 ><i class="fa-solid fa-screwdriver-wrench"></i> Skills | Place your mouse over the skills to see what they stand for!</font>';
   } else {
     skillsTag.innerHTML =
       '<i class="fa-solid fa-screwdriver-wrench"></i> Skills';
+  }
+});
+
+window.addEventListener("scroll", () => {
+  let scrolled = window.scrollY;
+  let projectsTag = document.querySelector("#projects");
+
+  if (scrolled > 1200 && scrolled < 1500) {
+    projectsTag.innerHTML =
+      '<font size=4 ><i class="fa-solid fa-toolbox"></i> Projects | My main projects!</font>';
+  } else {
+    projectsTag.innerHTML = '<i class="fa-solid fa-toolbox"></i> Projects';
   }
 });
