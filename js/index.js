@@ -130,7 +130,7 @@ window.addEventListener("scroll", () => {
   let scrolled = window.scrollY;
   let introductionTag = document.querySelector("#introduction");
 
-  if (scrolled > 300 && scrolled < 600) {
+  if (scrolled > 300 && scrolled < 800) {
     introductionTag.innerHTML =
       '<font size=4 ><i class="fa-solid fa-info"></i> Introduction | My basic info!</font>';
   } else {
@@ -140,9 +140,7 @@ window.addEventListener("scroll", () => {
 
 window.addEventListener("scroll", () => {
   let scrolled = window.scrollY;
-  let introductionTag = document.querySelector("#introduction");
   let skillsTag = document.querySelector("#skills");
-  let projectsTag = document.querySelector("#projects");
 
   if (scrolled > 900 && scrolled < 1150) {
     skillsTag.innerHTML =

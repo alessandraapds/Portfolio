@@ -31,6 +31,11 @@ h3 {
   box-shadow: 2px 2px 2px pink;
 }
 
+h5 {
+  font-weight: bolder;
+  margin-top: 50px;
+}
+
 .h3-other-pages {
   margin-top: 0;
 }
@@ -48,12 +53,14 @@ h3 {
   margin: 60px;
 }
 
-.homepage-text {
+.homepage-text,
+.about-text {
   font-size: 18px;
   font-weight: bold;
   word-spacing: 4px;
   text-align: left;
   text-shadow: 1px 1px 1px gray;
+  margin-top: 30px;
 }
 
 .contact-me-button,
