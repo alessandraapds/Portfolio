@@ -116,16 +116,49 @@ h5 {
   text-shadow: 1px 1px 2px white;
 }
 
-.apps {
+.apps,
+.app-placeholder {
   border: 2px solid white;
   border-radius: 15px;
   box-shadow: 2px 2px 2px gray;
   width: 330px;
 }
 
+.app-placeholder {
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  padding: 63px;
+}
+
+.app-description {
+  font-size: 18px;
+  font-weight: bold;
+  word-spacing: 4px;
+  text-align: center;
+  text-shadow: 1px 1px 1px gray;
+  margin: 30px;
+}
+
 .dev-signature {
   font-size: 12px;
   margin-top: 70px;
+}
+
+.projects-app-pic,
+.project-app-placeholder {
+  border: 2px solid white;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px gray;
+  width: 500px;
+}
+
+.project-app-placeholder {
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  padding: 90px;
+  margin-left: 20px;
 }
 
 @media (max-width: 576px) {
@@ -170,5 +203,21 @@ h5 {
 
   .apps {
     width: 300px;
+  }
+
+  .projects-app-pic,
+  .project-app-placeholder {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    width: 350px;
+  }
+
+  .project-app-placeholder {
+    margin-top: 50px;
+  }
+
+  .app-description {
+    font-size: 14px;
   }
 } ;
