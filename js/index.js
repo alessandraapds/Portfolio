@@ -126,6 +126,7 @@ function hideReactText() {
 }
 reactButton.addEventListener("mouseout", hideReactText);
 
+//Scrolling effect
 window.addEventListener("scroll", () => {
   let scrolled = window.scrollY;
   let introductionTag = document.querySelector("#introduction");
